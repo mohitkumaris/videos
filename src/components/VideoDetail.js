@@ -1,4 +1,5 @@
 import React from "react";
+import "./VideoDetail.css";
 
 const VideoDetail = ({ video }) => {
   if (!video) {
@@ -12,7 +13,7 @@ const VideoDetail = ({ video }) => {
         </div>
         <div className="ui segment">
           <h4 className="ui header">{video.snippet.title}</h4>
-          <p>{video.snippet.description}</p>
+          <p className="description">{video.snippet.description}</p>
         </div>
       </div>
     );

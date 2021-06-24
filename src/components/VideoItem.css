@@ -6,3 +6,6 @@
 .video-item.item img {
   max-width: 180px;
 }
+.content {
+  overflow-wrap: break-word !important;
+}
